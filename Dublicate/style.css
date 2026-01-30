@@ -1,0 +1,59 @@
+
+body {
+    background: #f6f8fb;
+  }
+  
+  .card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
+  
+  .avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  .profile {
+    background-image: url('images/profile.png');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+  
+  .skill-bar {
+    height: 6px;
+  }
+  
+  .achievement {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+  }
+  
+  .achievement-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #eef2ff;
+    color: #3b5bff;
+    font-size: 18px;
+  }
+
+  .separator {
+    border: none;
+    height: 1px;
+    background-color: #ddd;
+    margin: 30px 0;
+  }
+
